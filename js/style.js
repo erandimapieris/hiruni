@@ -3,11 +3,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     downloadButton.addEventListener("click", function() {
         const a = document.createElement("a");
-        a.href = "path/to/your/mycv.pdf";  // Replace with the actual path to your PDF
+        a.href = "pdf/mycv.pdf";  
         a.download = "mycv.pdf";
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
     });
 });
+
+
 
