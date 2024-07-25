@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/style.js">
+    <!-- <link rel="stylesheet" href="js/style.js"> -->
+    <script src="js/style.js" defer></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-   <div class="hero">
+   
     <nav>
-        <img src="" alt="">
-
+        <div class="nav-content">
+            <div class="logo"><a href="#">Hiruni</a></div>
+             <label for="check" class="checkbox">
+                <i class='bx bx-menu'></i>
+             </label>
+            <input type="checkbox" name="check" id="check">
         
         <ul>
             <li><a href="#">Home</a></li>
@@ -20,31 +25,42 @@
             <li><a href="acadamic.html">Acadamic</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        </div>
     </nav>
-    <div class="name">
+
+    <section class="section">
+    <div class="section-container">
+    <div class="container">
         <h1>I'm <span>Hiruni Erandima </span></h1>
         <p>this is my official profile website <br>
             to showes all details</p>
-         <!-- <a href="C:\xampp\htdocs\hhh\mycv.pdf" download, id="download">
+            <div class="btn">
+         <a href="pdf/mycv.pdf" download, id="download">
             <button type="button" class="button" data-download="download" >DOWNLOAD CV</button>
-         </a> -->
-
-         <button id="downloadButton">Download PDF</button>
+         </a>
+         
+         </div> 
+         <div class="social">
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+        </div>
     
     </div>
+
     <div class="image">
-         <img src="C:\Users\DILELKA\Desktop\hhh\image\eee.jpeg">
-        
+         <img src="image\eee.jpeg">
     </div>
-
-    <div class="social">
-        <a href="#"><i class='bx bxl-github' ></i></a>
-        <a href="#"><i class='bx bxl-instagram'></i></a>
-        <a href="#"><i class='bx bxl-linkedin-square'></i></a>
-        <a href="#"><i class='bx bxl-whatsapp'></i></a>
-    </div>
-
     
-   </div> 
+    
+    
+    </section>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; 2024 Hiru. All rights reserved.</p>
+        </div>
+    </div>
 </body>
 </html>
