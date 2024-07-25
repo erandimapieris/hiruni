@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     downloadButton.addEventListener("click", function() {
         const a = document.createElement("a");
-        a.href = "pdf/mycv.pdf";  
+        a.href = "mycv.pdf";  
         a.download = "mycv.pdf";
         document.body.appendChild(a);
         a.click();
